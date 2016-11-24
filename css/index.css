@@ -1,0 +1,119 @@
+body {
+  padding-bottom: 40px;
+  background-color: #fff;
+  color: #999;
+}
+h2{
+	font-size: 18px;
+	color: #555;
+	margin-bottom:30px;
+}
+/*切换登录和注册*/
+.logo{
+	display: block;
+	margin: 0 auto;
+}
+.main-body{
+	min-height: 590px;
+	max-width: 360px;
+	padding: 20px;
+	margin: 15% auto 0;
+}
+.nav{
+	font-size: 18px;
+	margin-bottom: 10px;
+	text-align: center;
+	line-height: 35px;
+}
+a{
+	color:#999; 
+}
+a:hover{
+	text-decoration: none;
+}
+.sign-up,.logn-in{
+	display: inline-block;
+	padding: 0 20px;
+}
+.name, .tel ,.pwd,.user{
+	border-radius: 0;
+	font-size: 14px;
+}
+.form-control {
+  position: relative; 
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+}
+.form-control:focus{
+	z-index: 2;
+}
+.name, .tel,.user{
+	margin-bottom:-1px;
+}
+.name,.user{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.pwd{
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.btn,.log-in-misc,.social-login{
+	margin-top: 20px;
+}
+.help-block{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 30px;
+	color: #999;
+}
+.help-block a{
+	color: #5fa6e5;
+}
+
+.app{
+	font-size: 14px;
+	color: #5fa6e5;
+	border-color: #5fa6e5;
+}
+.remember-me{
+	float: left;
+}
+.unable-login{
+	float: right;
+}
+.toggle{
+	display: none;
+}
+.color{
+	color: #5fa6e5;
+}
+.appImg{
+	background: #fff;
+	padding: 30px;
+}
+.footer{
+	width: 780px;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 42px;
+	margin-top: 70px;
+}
+.social-icon{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image:url("images/social-icon.png");
+	background-repeat: no-repeat; 
+}
+.social-icon:first-child{
+	background-position: -56px -20px;
+}
+.social-icon:nth-child(2){
+	background-position:0 -44px; 
+}
+.social-icon:last-child{
+	background-position:-56px 0; 
+}
