@@ -1,0 +1,65 @@
+    <meta name="author" content="">
+    <link rel="icon" href="images/title.jpg">
+  	<title>我的知乎</title>
+  	<!-- Bootstrap core CSS -->
+    <link href="js/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--登录界面的css-->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-body">
+        <div class="header">
+          <img src="images/logo.png" class="logo">
+          <h2 class="text-center">与世界分享你的知识、经验和见解</h2>
+        </div>
+        <div class="sign">
+	      <div class="nav">
+	        <a href="#" class="sign-up active color" id="signUp">注册</a>
+		      <a href="#" class="logn-in" id="logIn">登录</a>
+	      </div>
+          <form class="signUp" role="form">
+          	<input type="text" class="form-control input-lg name" placeholder="姓名" required autofocus>
+            <input type="text" class="form-control input-lg tel" placeholder="手机号码（仅支持中国大陆）" required >
+	          <input type="password" class="form-control input-lg pwd" placeholder="密码（不少于六位）" required>
+	          <button class="btn btn-lg btn-primary btn-block" type="submit">注册知乎</button>
+	          <span class="help-block">点击「注册」按钮，即代表你同意<a href="">《知乎协议》</a></span>
+          </form>
+          <form class="logIn toggle" role="form">
+            <input type="text" class="form-control input-lg user" placeholder="手机号或邮箱" required autofocus>
+            <input type="password" class="form-control input-lg pwd" placeholder="密码" required>
+            <button class="btn btn-lg btn-primary btn-block" typy="submit">登录</button>
+            <div class="log-in-misc clearfix">
+              <label class="remember-me">
+                <input type="checkbox" name="remember-me">
+                记住我
+              </label>
+              <a href="#" class="unable-login">无法登陆？</a>
+            </div>
+            <div class="social-login">
+               <a>社交账号登录</a>
+               <a href="#"><i class="social-icon"></i></a>
+               <a href="#"><i class="social-icon"></i></a>
+               <a href="#"><i class="social-icon"></i></a>
+            </div>
+          </form>
+          <button type="button" class="btn btn-default btn-lg btn-block app" data-toggle="tooltip" data-placement="top" title="Tooltip on top">下载知乎 APP</button>
+        </div>
+      </div>
+      <div class="footer">
+         <span>© 2016 知乎 · </span>
+         <a href="">知乎圆桌 · </a> 
+         <a href="">发现 · </a> 
+         <a href="">移动应用 · </a> 
+         <a href="">使用机构帐号登录 · </a>
+         <a href="">联系我们 · </a>
+         <a href="">来知乎工作 · </a>
+         <a href="">京 ICP 备 13052560 号 · </a> 
+         <span>京公网安备 11010802010035 号 </span>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.1.10.2.js"></script>
+    <script type="text/javascript" src="js/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
