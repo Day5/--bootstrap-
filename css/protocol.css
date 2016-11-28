@@ -1,0 +1,87 @@
+html,body{
+	width: 100%;
+	color: #222;
+	line-height: 2;
+	font-size: 14px;
+}
+.container{
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+.navbar-header{
+	margin-left: 25%;
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	border:1px solid  #086ed5;
+	background:rgba(0, 0, 0, 0) linear-gradient(to bottom, #086ed5, #055db5) repeat scroll 0 0;
+}
+.nav-brand{
+	padding: 8px 0;
+	height: 45px;
+	width: 61px;
+}
+.navbar-default  .navbar-nav>li>a{
+	color: #fff;
+}
+.navbar-default  .navbar-nav>li>a:hover{
+	color: #fff;
+}
+.right{
+	margin-left: 10%;
+}
+.navbar .btn{
+	background:rgba(0, 0, 0, 0) linear-gradient(to bottom, #0e7bef, #0d73da) repeat scroll 0 0;
+	border:1px solid  #0d73da;
+	color: #fff;
+}
+/*content*/
+.content{
+	width: 50%;
+	clear: both;
+	overflow: hidden;
+	margin: 61px auto;
+}
+.content-right{
+	width: 85%;
+	float:right;
+}
+.content-left{
+	width: 15%;
+	position: fixed;
+	top: 70px;
+}
+.content-left a{
+	color: #222;
+}
+.content-left li a:hover ,.content-left li a:focus{
+	background: none;
+}
+.content h1 ,.content h2{
+	font-size: 16px;
+	font-weight: bold;
+}
+/*footer*/
+footer{
+	color: #999;
+	width: 55%;
+	margin:0 auto;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-top:1px solid #999; 
+}
+.link{
+     float: right;
+}
+ .copy{
+ 	float: left;
+ }
+footer li{
+	text-decoration: none;
+	display: inline-block;
+}
+footer a{	
+	color: #999;
+}
